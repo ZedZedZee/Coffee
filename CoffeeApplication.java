@@ -114,17 +114,28 @@ public static void printTimeStamp ()
    printTimeStamp();
    
    /*ANDREA -  Save text file
-         1. User specifies directory - use prommpts 
-			2. User specified file name
-
-      - create a File object (pg 473)
+      //prompt user for directory location
+            System.out.print("Enter the file directory to which you would like to save your report: :);
+      
+      //check if directory exists
+      
+      //if directory does not exist loop until a directory that exists is provided
+      
+      //prompt for a file name ...  or we can set naming standards      
+      
+      //check if file already exists
+            file.exists();
+      //loop for acceptable file name   
+      
+      // create a File object (pg 473)
              java.io.File nameFileHere = new java.io.File("enter directory here");
-      - write text to a file (pg 476)
+      // write text to a file (pg 476)
              PrintWriter class to create and write data to a text file
              PrintWriter output = new PrintWriter(filename);
-      - invoke the print, println and printf methods on the PrintWriter object to write data to a file
+      // invoke the print, println and printf methods on the PrintWriter object to write data to a file
 		       output.println("");
-      - close the file  output.close();      	
+      // close the file  
+             output.close();      	
 	*/
 	
 /* MELVIN? - Edit Tasting
